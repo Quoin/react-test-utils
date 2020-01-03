@@ -1,0 +1,36 @@
+{
+  "name": "@quoin/react-test-utils",
+  "version": "1.0.0",
+  "description": "Quoin's react test utils",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quoin/react-test-utils.git"
+  },
+  "keywords": [
+    "Quoin",
+    "React",
+    "test",
+    "utils"
+  ],
+  "author": {
+    "name": "Hữu Ðà Trần",
+    "email": "huuda.tran@quoininc.com",
+    "url": "https://www.quoininc.com/staff/huu-da-tran/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Quoin/react-test-utils/issues"
+  },
+  "homepage": "https://github.com/Quoin/react-test-utils#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "node-mocks-http": "^1.8.1",
+    "proxyquire": "^2.1.3",
+    "rewire": "^4.0.1",
+    "sinon": "^8.0.2"
+  }
+}
