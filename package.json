@@ -5,6 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "babel": "babel --out-dir dist --ignore \"src/**/*.test.js\" src",
+    "coveralls": "cat reports/coverage/lcov.info | coveralls",
+    "precoverage": "rimraf reports/nyc_output reports/coverage",
+    "coverage": "nyc --report-dir=reports/coverage npm test",
+    "coverage-report": "nyc report --reporter=text --reporter=text-summary",
     "prepack": "npm run babel",
     "test": "mocha --require @babel/register \"src/**/*.test.js?(x)\""
   },
@@ -44,8 +48,10 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "immutable": "^3.8.2",
     "mocha": "^6.2.2",
+    "nyc": "^15.0.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "rimraf": "^3.0.0"
   },
   "peerDependencies": {
     "enzyme": "^3.11.0",
