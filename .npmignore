@@ -1,3 +1,6 @@
 /.babelrc
+/.nycrc
+/.travis.yml
 /quoin-react-test-utils-*.tgz
+/reports
 /src
