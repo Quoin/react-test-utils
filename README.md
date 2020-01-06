@@ -1,5 +1,9 @@
 # Quoin react test utils
 
+[![Build Status](https://travis-ci.com/Quoin/react-test-utils.svg?branch=master)](https://travis-ci.com/Quoin/react-test-utils)
+[![Coverage Status](https://coveralls.io/repos/github/Quoin/react-test-utils/badge.svg?branch=master)](https://coveralls.io/github/Quoin/react-test-utils?branch=master)
+
+
 Utility library for testing react projects.
 
 It makes sure that [Chai](https://www.chaijs.com/) uses some plugins:
